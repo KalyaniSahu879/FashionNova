@@ -1,0 +1,122 @@
+
+html,body{
+    margin: 0;
+    width:100%;
+}
+*{
+    font-family: 'Prompt', sans-serif;  
+}
+#nav_container{
+    width:100%;
+    /* margin: auto; */
+    justify-content: center;
+    align-content: center;
+}
+#ends_at_mid{
+    height:50px;
+    width: 100%;
+    background-color: #e6caaf;
+    align-items: center;
+   
+}
+p{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #c3444a;
+    font-size: 17px;
+    font-weight: bold;
+}
+#women_curve_men{
+    height:50px;
+    width: 100%;
+    background-color:white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+#cat-btn>button,select{
+    background-color: white;
+    border: transparent;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+}
+#fashion_nova{
+    height:100px;
+    width: 100%;
+    background-color:black;
+    border:1px solid blue;
+    display: flex;
+    
+}
+#logo{
+    border:1px solid transparent;
+    height:100%;
+    width: 50%;
+    margin-left: 20px;
+}
+#fashion_nova>div>h1{
+   color:white;
+   font-weight: 20;
+}
+.nav_menu>div{
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.nav_menu{
+    margin-top: 65px;
+    width:30px;
+    display:block;
+}
+.nav_menu:hover div{
+    width: 30px;
+}
+
+.one{
+    width:30px;
+}
+.two{
+    width:20px;
+}
+.three{
+    width:30px;
+}
+span{
+    font-weight: bold;
+    font-size: 70px;
+}
+button:hover {
+    /* color: rgb(240, 15, 15);
+    background-color: black; */
+
+    box-shadow: inset 300px 0 0 0 black;
+    color: white;
+
+}
+#search{
+    width:400px;
+    height:40px;
+    border-radius: 50px;
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+#view_cart{
+    display: flex;
+    width: 400px;
+}
+
+#view_cart>div{
+    color: white;
+    padding: 50px 20px;
+    /* border:1px solid white; */
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
